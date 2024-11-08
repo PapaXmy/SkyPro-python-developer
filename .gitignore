@@ -1,0 +1,16 @@
+cource_work_4/__pycache__
+cource_work_4/project/__pycache__
+cource_work_4/project/dao/__pycache__
+cource_work_4/project/services/__pycache__
+cource_work_4/project/setup/__pycache__
+cource_work_4/project/setup/api/__pycache__
+cource_work_4/project/setup/db/__pycache__
+cource_work_4/project/tools/__pycache__
+cource_work_4/project/views/__pycache__
+cource_work_4/project/views/auth/__pycache__
+cource_work_4/project/views/main/__pycache__
+cource_work_4/tests/__pycache__
+cource_work_4/tests/dao/__pycache__
+cource_work_4/tests/services/__pycache__
+cource_work_4/tests/views/__pycache__
+cource_work_4/venv
