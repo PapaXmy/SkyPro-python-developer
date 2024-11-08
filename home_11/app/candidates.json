@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Adela Hendricks",
+    "picture": "https://opis-cdn.tinkoffjournal.ru/mercury/neural-photo-1.iehmu4..jpeg",
+    "position": "Go разработчик",
+    "gender": "female",
+    "age": 40,
+    "skills": "go, python"
+  },
+  {
+    "id": 2,
+    "name": "Sheri Torres",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgBu0_TWbrbH_pvUkbCFbOL9K0mIeBEBMnvNalekT4X0cr63vwfCTgEgdHM5Fqt19PJOA&usqp=CAU",
+    "position": "Delphi developer",
+    "gender": "female",
+    "age": 26,
+    "skills": "Delphi, pascal, fortran, basic"
+  },
+  {
+    "id": 3,
+    "name": "Burt Stein",
+    "picture": "https://wl-adme.cf.tsp.li/resize/728x/jpg/cf3/3eb/cebf385e9da99914a27f31c22d.jpg",
+    "position": "Team lead",
+    "gender": "male",
+    "age": 33,
+    "skills": "делегирование, пользоваться календарем, обсуждать важные вопросы"
+  },
+  {
+    "id": 4,
+    "name": "Bauer Adkins",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRclnZG1lQThOK0pirOK-NELw-cLHMAOetlnoFwfP703A_mgGhFiuBer_ULKu3t02Uh5FQ&usqp=CAU",
+    "position": "CTO",
+    "gender": "male",
+    "age": 37,
+    "skills": "very important face"
+  },
+  {
+    "id": 5,
+    "name": "Day Holloway",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ6UXAX_VS-wA4Ywc_aGg2W9qY6n5sCOAcNatFB5eMYT_PxADdTA5nCjwMPMVC7j5VD7M&usqp=CAU",
+    "position": "HR manager",
+    "gender": "male",
+    "age": 35,
+    "skills": "LinkedIn, telegram, spam, spam, spam"
+  },
+  {
+    "id": 6,
+    "name": "Austin Cochran",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7gYXAm8GHHFDLURxtOQ_z42hXJeRZs_lnJFwIuCWqb9eyroIN9uiGkUXsyZKFMyaY23I&usqp=CAU",
+    "position": "python-develop",
+    "gender": "male",
+    "age": 26,
+    "skills": "python, html"
+  },
+  {
+    "id": 7,
+    "name": "Sheree Love",
+    "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEgI0wUCUfAso3nYNNruPsK4uK0TaG1SL2OqMo0OYhNRyttBjfQv9rr-fg3GVMsPTKO44&usqp=CAU",
+    "position": "Django developer",
+    "gender": "female",
+    "age": 33,
+    "skills": "Python, Django, flask"
+  }
+]
