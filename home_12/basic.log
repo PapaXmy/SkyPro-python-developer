@@ -1,0 +1,28 @@
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 928-532-566
+INFO:werkzeug: * Detected change in '/home/Xmy/Документы/Python/SkyPro/homeworks/home_12/main/routes.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 928-532-566
+INFO:werkzeug: * Detected change in '/home/Xmy/Документы/Python/SkyPro/homeworks/home_12/main/routes.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 928-532-566
+INFO:werkzeug: * Detected change in '/home/Xmy/Документы/Python/SkyPro/homeworks/home_12/loader/routes.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 928-532-566
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 23:38:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 23:38:33] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 23:38:34] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 23:38:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 23:38:40] "POST /uploaded HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 23:39:25] "POST /uploaded HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Apr/2024 23:41:05] "GET /search?s=кот HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/Xmy/Документы/Python/SkyPro/homeworks/home_12/main/routes.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 928-532-566
+INFO:werkzeug: * Detected change in '/home/Xmy/Документы/Python/SkyPro/homeworks/home_12/loader/routes.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 928-532-566
+INFO:werkzeug: * Detected change in '/home/Xmy/Документы/Python/SkyPro/homeworks/home_12/app.py', reloading
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 928-532-566
+INFO:werkzeug: * Detected change in '/home/Xmy/Документы/Python/SkyPro/homeworks/home_12/app.py', reloading
