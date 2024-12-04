@@ -16,7 +16,7 @@ def perform_query():
     # проверить, что файла file_name существует в папке DATA_DIR, при ошибке вернуть ошибку 400
     # с помощью функционального программирования (функций filter, map), итераторов/генераторов сконструировать запрос
     # вернуть пользователю сформированный результат
-    cmd1 = request.json.get("cmd")
+    cmd1 = request.json.get("cmd1")
     value1 = request.json.get("value1")
     cmd2 = request.json.get("cmd2")
     value2 = request.json.get("value2")
@@ -24,7 +24,12 @@ def perform_query():
     filepath = os.path.join(DATA_DIR, filename)
 
     if not os.path.isfile(filepath):
-        return jsonify({"error": f"Файл {filename} не найден!"}), 404
+        return (
+            app.response_class(
+                f"Файл {filename} не найден!", content_type="text/plain"
+            ),
+            404,
+        )
 
     try:
         with open(filepath, "r") as file:
@@ -32,20 +37,22 @@ def perform_query():
 
         if cmd1 in commands:
             data = commands[cmd1](data, value1)
-        else:
-            return jsonify({"error": f"Неизвестная конанда {cmd1}"})
 
-        # elif cmd2 in commands:
-        #     data = commands[cmd2](data, value2)
-        # else:
-        #     return jsonify({"error": f"Неизвестная конанда {cmd2}"})
+        elif cmd2 in commands:
+            data = commands[cmd2](data, value2)
+        else:
+            return (
+                app.response_class(
+                    f"Неизвестная конанда {cmd2}", content_type="text/plain"
+                ),
+                400,
+            )
 
         result = list(data)
         return jsonify(result)
     except Exception as e:
-        return jsonify({"error": str(e)}), 500
 
-    # return app.response_class("", content_type="text/plain")
+        return app.response_class(f"Ошибка: {str(e)}", content_type="text/plain"), 500
 
 
 if __name__ == "__main__":
